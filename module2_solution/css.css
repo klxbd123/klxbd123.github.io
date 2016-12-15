@@ -1,0 +1,93 @@
+*
+{
+	box-sizing: border-box;
+	font-family: "Arial";
+}
+
+h1
+{
+	text-align: center;
+}
+
+h2
+{
+	float: right;
+	width: 150px;
+	border: 2px solid black;
+	text-align: center;
+}
+
+.pink
+{
+	background-color: blue;
+		color: white;
+}
+
+.red
+{
+	background-color: red;
+		color: white;
+}
+
+.yellow
+{
+	background-color: yellow;
+}
+
+p
+{
+	padding: 10px;
+	clear: right;
+}
+
+.row
+{
+	width: 100%;
+}
+
+@media (min-width: 992px)
+{
+	.style1
+	{
+		float: left;
+		width: calc(30% - 20px);
+		margin: 12px;
+		border: 2px solid black;
+		background-color: DarkSeaGreen;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.style2
+	{
+		float: left;
+		width: calc(50% -  20px);
+		margin: 10px;
+		border: 2px solid black;
+		background-color: DarkSeaGreen;
+	}
+
+	.style3
+	{
+		float: left;
+		width: calc(100% - 20px);
+		margin: 10px;
+		border: 2px solid black;
+		background-color: DarkSeaGreen;
+	}
+}
+
+/* Ecran smartphone */
+@media (max-width: 767px)
+{
+	.style4
+	{
+		float: left;
+		width: calc(100% - 20px);
+		border: 1px solid orange;
+		border: 2px solid black;
+		background-color: DarkSeaGreen;
+		margin: 10px;
+	}
+}
